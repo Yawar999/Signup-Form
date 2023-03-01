@@ -1,0 +1,59 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 30px;
+}
+
+form {
+	margin: 50px auto;
+	width: 60%;
+}
+
+fieldset {
+	margin: 20px 0;
+	border: 1px solid #ccc;
+	padding: 20px;
+}
+
+legend {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+label {
+	display: inline-block;
+	width: 200px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+input[type="text"], input[type="email"],
+input[type="tel"], input[type="number"], textarea,input[type="password"] ,input[type="date"]{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    }
+    
+    input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    }
+    
+    input[type="submit"]:hover {
+    background-color:blue;
+    }
+    .toc{
+        padding: 5px;
+        margin: 5px;
+    }
